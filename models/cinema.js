@@ -16,12 +16,12 @@ Cinema.prototype.findByTitle = function (title_to_find) {
   return result[0];
 }
 
-Cinema.prototype.filterByGenre = function (genre) {
-  const result = this.films.filter((film) => {
-    return film.genre === genre;
-  });
-  return result;
-}
+// Cinema.prototype.filterByGenre = function (genre) {
+//   const result = this.films.filter((film) => {
+//     return film.genre === genre;
+//   });
+//   return result;
+// }
 
 Cinema.prototype.checkForYear = function (year) {
   const result = this.films.some((film) => {
