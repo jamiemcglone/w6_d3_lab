@@ -67,7 +67,7 @@ describe('Cinema', function () {
   });
 
   it('should be able to filter films by year', function () {
-    const actual = cinema.filmsByProperty(year, 2017);
+    const actual = cinema.filmsByProperty("year", 2017);
     assert.deepStrictEqual(actual, [bladeRunner, dunkirk, trainspotting]);
   });
 
